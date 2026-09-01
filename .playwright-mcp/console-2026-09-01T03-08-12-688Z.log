@@ -1,0 +1,50 @@
+[     609ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/login:90
+[     618ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/login:160
+[     670ms] ReferenceError: route is not defined
+    at LoginPage (http://[::1]:5173/resources/js/pages/Auth/Login.tsx:179:11)
+    at Object.react_stack_bottom_frame (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:12866:12)
+    at renderWithHooks (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:4213:19)
+    at updateFunctionComponent (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:5569:16)
+    at beginWork (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:6140:20)
+    at runWithFiberInDEV (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:851:66)
+    at performUnitOfWork (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:8429:92)
+    at workLoopSync (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:8325:37)
+    at renderRootSync (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:8309:6)
+    at performWorkOnRoot (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:7994:27)
+[     684ms] [WARNING] %s
+
+%s
+ An error occurred in the <LoginPage> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:8000/login:160
+[   40657ms] [ERROR] [vite] SyntaxError: The requested module '/resources/js/routes/index.ts' does not provide an export named 'password' @ http://localhost:8000/login:160
+[   40658ms] [ERROR] [vite] Failed to reload /resources/js/pages/Auth/Login.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:8000/login:160
+[  385016ms] [ERROR] [vite] SyntaxError: The requested module '/resources/js/routes/index.ts?t=1788232477641' does not provide an export named 'password' @ http://localhost:8000/login:160
+[  385016ms] [ERROR] [vite] Failed to reload /resources/js/pages/Auth/Login.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:8000/login:160
+[  556586ms] TypeError: password.url is not a function
+    at LoginPage (http://[::1]:5173/resources/js/pages/Auth/Login.tsx?t=1788232649177:180:20)
+    at Object.react_stack_bottom_frame (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:12866:12)
+    at renderWithHooks (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:4213:19)
+    at updateFunctionComponent (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:5569:16)
+    at beginWork (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:6140:20)
+    at runWithFiberInDEV (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:851:66)
+    at performUnitOfWork (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:8429:92)
+    at workLoopSync (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:8325:37)
+    at renderRootSync (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:8309:6)
+    at performWorkOnRoot (http://[::1]:5173/node_modules/.vite/deps/client--1ct2-FA.js?v=30a0a6cf:7994:27)
+[  556596ms] [WARNING] %s
+
+%s
+ An error occurred in the <LoginPage> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:8000/login:160
+[  561443ms] [ERROR] [vite] SyntaxError: The requested module '/resources/js/routes/index.ts?t=1788232654053' does not provide an export named 'password' @ http://localhost:8000/login:160
+[  561443ms] [ERROR] [vite] Failed to reload /resources/js/pages/Auth/Login.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:8000/login:160
+[  561444ms] [ERROR] [vite] SyntaxError: The requested module '/resources/js/routes/index.ts?t=1788232654053' does not provide an export named 'password' @ http://localhost:8000/login:160
+[  561444ms] [ERROR] [vite] Failed to reload /resources/js/pages/Auth/Login.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:8000/login:160
+[  561444ms] [ERROR] [vite] SyntaxError: The requested module '/resources/js/routes/index.ts?t=1788232654053' does not provide an export named 'password' @ http://localhost:8000/login:160
+[  561445ms] [ERROR] [vite] Failed to reload /resources/js/pages/Auth/Login.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:8000/login:160
+[  661118ms] [ERROR] [vite] SyntaxError: The requested module '/resources/js/routes/index.ts?t=1788232654053' does not provide an export named 'password' @ http://localhost:8000/login:160
+[  661118ms] [ERROR] [vite] Failed to reload /resources/js/pages/Auth/Login.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:8000/login:160
+[  824933ms] [ERROR] [vite] SyntaxError: The requested module '/resources/js/routes/index.ts?t=1788232917571' does not provide an export named 'password' @ http://localhost:8000/login:160
+[  824933ms] [ERROR] [vite] Failed to reload /resources/js/pages/Auth/Login.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:8000/login:160
+[  854770ms] [ERROR] [vite] SyntaxError: The requested module '/resources/js/routes/index.ts?t=1788232947408' does not provide an export named 'password' @ http://localhost:8000/login:160
+[  854770ms] [ERROR] [vite] Failed to reload /resources/js/pages/Auth/Login.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:8000/login:160

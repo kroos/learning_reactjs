@@ -1,0 +1,26 @@
+- generic [ref=f7e4]:
+  - banner [ref=f7e5]:
+    - heading "Welcome" [level=1] [ref=f7e7]
+  - main [ref=f7e8]:
+    - generic [ref=f7e10]:
+      - heading "Getting Started" [level=2] [ref=f7e11]
+      - generic [ref=f7e12]:
+        - generic [ref=f7e13]:
+          - heading "Welcome to Laravel + React" [level=1] [ref=f7e14]
+          - paragraph [ref=f7e15]: This application demonstrates Laravel architectural concepts adapted to React/Inertia.js with Tailwind CSS.
+        - generic [ref=f7e16]:
+          - generic [ref=f7e17]:
+            - heading "TypeScript Models" [level=3] [ref=f7e21]
+            - paragraph [ref=f7e22]: Strongly-typed interfaces for User, Login, ActivityLog, JobBatch matching Laravel models
+          - generic [ref=f7e23]:
+            - heading "Inertia.js + React" [level=3] [ref=f7e27]
+            - paragraph [ref=f7e28]: SPA experience without API complexity — server-side routing with client-side rendering
+          - generic [ref=f7e29]:
+            - heading "Tailwind CSS" [level=3] [ref=f7e33]
+            - paragraph [ref=f7e34]: Utility-first styling with dark mode, responsive design, and consistent design tokens
+        - generic [ref=f7e35]:
+          - link "Sign In" [ref=f7e36] [cursor=pointer]:
+            - /url: /login
+          - link "Register" [ref=f7e37] [cursor=pointer]:
+            - /url: /register
+        - paragraph [ref=f7e39]: Built with Laravel 11, React 18, Inertia.js v3, and Tailwind CSS v4
